@@ -1,0 +1,17 @@
+{
+  "name": "openai-image-input-example",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "Minimal JavaScript example sending image + text to OpenAI vision capable model.",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "base64": "node index_base64.js",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "openai": "^4.55.0",
+    "dotenv": "^16.4.5"
+  }
+}
